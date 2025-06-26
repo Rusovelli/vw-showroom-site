@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Автосалон Volkswagen</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="container header-flex">
+      <img src="images/logo.png" alt="VW Logo" class="logo">
+      <nav>
+        <ul>
+          <li><a href="#home">Главная</a></li>
+          <li><a href="#about">О нас</a></li>
+          <li><a href="#inventory">Автопарк</a></li>
+          <li><a href="#contact">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="overlay"></div>
+    <div class="container hero-content">
+      <h1>Добро пожаловать в автосалон Volkswagen</h1>
+      <p>Официальный дилер. Лучшие цены и сервис мирового уровня.</p>
+      <a href="#inventory" class="btn">Посмотреть автомобили</a>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <h2>О нас</h2>
+      <p>Уже 20 лет мы предлагаем широкий выбор автомобилей Volkswagen, гарантию качества и индивидуальный подход к каждому клиенту.</p>
+    </div>
+  </section>
+
+  <section id="inventory" class="inventory">
+    <div class="container">
+      <h2>Наша коллекция</h2>
+      <div class="grid-gallery">
+        <div class="card">
+          <img src="images/car1.jpg" alt="VW Model 1">
+          <h3>Volkswagen Golf</h3>
+        </div>
+        <div class="card">
+          <img src="images/car2.jpg" alt="VW Model 2">
+          <h3>Volkswagen Tiguan</h3>
+        </div>
+        <div class="card">
+          <img src="images/car3.jpg" alt="VW Model 3">
+          <h3>Volkswagen Passat</h3>
+        </div>
+        <div class="card">
+          <img src="images/car4.jpg" alt="VW Model 4">
+          <h3>Volkswagen Polo</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="container feature-flex">
+      <div class="feature">
+        <i class="icon">🚗</i>
+        <h3>Новые модели</h3>
+        <p>Всегда в наличии последние новинки.</p>
+      </div>
+      <div class="feature">
+        <i class="icon">🔧</i>
+        <h3>Сервис 24/7</h3>
+        <p>Круглосуточный сервис и оригинальные запчасти.</p>
+      </div>
+      <div class="feature">
+        <i class="icon">💳</i>
+        <h3>Кредит и лизинг</h3>
+        <p>Выгодные финансовые программы для всех клиентов.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Контакты</h2>
+      <form class="contact-form">
+        <input type="text" placeholder="Имя" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Сообщение" rows="5" required></textarea>
+        <button type="submit" class="btn">Отправить</button>
+      </form>
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed" loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-flex">
+      <p>&copy; 2025 Автосалон Volkswagen. Все права защищены.</p>
+      <div class="socials">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">YouTube</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
